@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - cameraFeed
     - dragObject
+    - pieceTargetController
     - updateDraggedObject
     - viewMovement
     Unity.Mobile.AndroidLogcat.Editor.dll:
@@ -70,6 +71,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2894}
     - Class: 114
       Script: {instanceID: 3728}
+    - Class: 114
+      Script: {instanceID: 16916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -533,6 +536,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: pieceTargetController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

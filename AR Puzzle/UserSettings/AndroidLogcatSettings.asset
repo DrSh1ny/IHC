@@ -3,41 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "R58M90HSY7L",
         "name": "com.DefaultCompany.ARPuzzle",
-        "processId": 21044,
+        "processId": 12362,
         "exited": false
     },
     "m_SelectedPriority": 2,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 1068,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 2539,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 5543,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 23867,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 24491,
-            "exited": true
-        },
         {
             "deviceId": "R58M90HSY7L",
             "name": "com.sec.android.app.launcher",
@@ -47,73 +17,55 @@
         {
             "deviceId": "R58M90HSY7L",
             "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 26418,
+            "processId": 3033,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M90HSY7L",
+            "name": "com.DefaultCompany.ARPuzzle",
+            "processId": 4064,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M90HSY7L",
+            "name": "com.DefaultCompany.ARPuzzle",
+            "processId": 6101,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M90HSY7L",
+            "name": "com.DefaultCompany.ARPuzzle",
+            "processId": 7338,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M90HSY7L",
+            "name": "com.DefaultCompany.ARPuzzle",
+            "processId": 8793,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M90HSY7L",
+            "name": "com.DefaultCompany.ARPuzzle",
+            "processId": 9143,
             "exited": false
         },
         {
             "deviceId": "R58M90HSY7L",
             "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 29998,
+            "processId": 10636,
             "exited": false
         },
         {
             "deviceId": "R58M90HSY7L",
             "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 10319,
+            "processId": 11907,
             "exited": false
         },
         {
             "deviceId": "R58M90HSY7L",
             "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 10703,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 11193,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 19505,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 3618,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 13239,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 15749,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 17937,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 20221,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M90HSY7L",
-            "name": "com.DefaultCompany.ARPuzzle",
-            "processId": 21044,
+            "processId": 12362,
             "exited": false
         }
     ],

@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\dragObject.cs" />
     <Compile Include="Assets\Scripts\cameraFeed.cs" />
     <Compile Include="Assets\Scripts\viewMovement.cs" />
+    <Compile Include="Assets\Scripts\pieceTargetController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UnityHDRI\KirbyCove\Info.txt" />
