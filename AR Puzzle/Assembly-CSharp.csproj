@@ -53,10 +53,13 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\updateDraggedObject.cs" />
     <Compile Include="Assets\Scripts\dragObject.cs" />
     <Compile Include="Assets\Scripts\cameraFeed.cs" />
     <Compile Include="Assets\Scripts\viewMovement.cs" />
-    <Compile Include="Assets\Scripts\updateDraggedObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\UnityHDRI\KirbyCove\Info.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

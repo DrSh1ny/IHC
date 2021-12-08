@@ -10,11 +10,22 @@ public class updateDraggedObject : MonoBehaviour
 
     private void LateUpdate()
     {
+        
         if (draggedObject != null)
         {
-            Vector3 diffAngle = new Vector3(this.transform.eulerAngles.x - lastOrientation.x, this.transform.eulerAngles.y - lastOrientation.y, this.transform.eulerAngles.z - lastOrientation.z);
-            draggedObject.transform.RotateAround(this.transform.position, new Vector3(0, 1, 0), diffAngle.y);
-            draggedObject.transform.RotateAround(this.transform.position, new Vector3(1, 0, 0), diffAngle.x);
+            Vector3 diffAngle = new Vector3(this.transform.localEulerAngles.x - lastOrientation.x, this.transform.localEulerAngles.y - lastOrientation.y, this.transform.localEulerAngles.z - lastOrientation.z);
+            draggedObject.transform.RotateAround(this.transform.position, Vector3.up, diffAngle.y);
+            
+            float currentPanRotationDeg = this.transform.localEulerAngles.y;
+            float currentPanRotationRad = currentPanRotationDeg * Mathf.Deg2Rad;
+            float projectionX = Mathf.Cos(currentPanRotationRad);
+            float projectionZ = Mathf.Sin(currentPanRotationRad);
+            Debug.Log("Current Rotation Position: "+this.transform.localEulerAngles);
+            Debug.Log("Current Projection:"+this.transform.right);
+            Debug.Log("Different in Height Rotation:" + diffAngle.x);
+
+            Vector3 composite = new Vector3(projectionX, 0, projectionZ);
+            draggedObject.transform.RotateAround(this.transform.position, this.transform.right, diffAngle.x);
         }
 
     }

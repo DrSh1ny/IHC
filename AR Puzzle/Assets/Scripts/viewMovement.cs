@@ -32,7 +32,7 @@ public class viewMovement : MonoBehaviour
 
     private void Update()
     {
-        this.GetComponent<updateDraggedObject>().lastOrientation = new Vector3(this.transform.eulerAngles.x, this.transform.eulerAngles.y, this.transform.eulerAngles.z);
+        this.GetComponent<updateDraggedObject>().lastOrientation = new Vector3(this.transform.localEulerAngles.x, this.transform.localEulerAngles.y, this.transform.localEulerAngles.z);
         
         ApplyGyroRotation();
         ApplyCalibration();

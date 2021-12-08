@@ -51,25 +51,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2188}
+      Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 2360}
+      Script: {instanceID: 2190}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 2362}
     - Class: 114
-      Script: {instanceID: 2478}
+      Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 2650}
+      Script: {instanceID: 2480}
     - Class: 114
-      Script: {instanceID: 2664}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2862}
+      Script: {instanceID: 2666}
     - Class: 114
-      Script: {instanceID: 2892}
+      Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 3726}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 16766}
+      Script: {instanceID: 3728}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -155,6 +155,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Notifications.Android.dll
     namespaceName: Unity.Notifications.Android
     className: AndroidReceivedNotificationMainThreadDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: deb0b98fd7eef17c67c7c86487c2d02b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: updateDraggedObject
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -527,13 +533,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: deb0b98fd7eef17c67c7c86487c2d02b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: updateDraggedObject
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: F:/Unity Projects/AR Puzzle/arpuzzle.apk
+  playerPath: F:/Unity Projects/IHC/AR Puzzle/arpuzzle.apk
